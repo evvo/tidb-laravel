@@ -1,0 +1,26 @@
+{
+    "name": "evvo/tidb-laravel",
+    "description": "Better TiDb support for Laravel",
+    "keywords": ["tidb", "tikv", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Evtimiy Mihaylov",
+            "email": "evo@vaupe.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Evvo\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Evvo\\TiDb\\TiDbServiceProvider"
+            ]
+        }
+    },
+}
