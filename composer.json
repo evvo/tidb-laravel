@@ -23,7 +23,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Evvo\\TiDb\\TiDbServiceProvider"
+        "Evvo\\TiDb\\TiDbDatabaseServiceProvider"
       ]
     }
   }
